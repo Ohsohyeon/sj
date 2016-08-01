@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'parse'=> 'parser_list#list'
+  get 'list'=> 'parser_list#list'
+  resource :day
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
